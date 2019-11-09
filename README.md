@@ -14,10 +14,7 @@ yarn global add expo-cli
 git clone https://github.com/sandfishfactory/VueNativeSampleApp.git
 cd VueNativeSampleApp
 vue-native init blogapp
-cp App.vue blogapp
-cp -r router blogapp
-cp -r store blogapp
-cp -r views blogapp
+cp -r src/* blogapp
 ```
 
 
