@@ -20,6 +20,7 @@ cp -r src/* blogapp
 
 ### 3. 必要なパッケージのインストール
 ```
+cd blogapp
 yarn add vuex vue-native-router react-native-reanimated react-native-gesture-handler react-native-paper react-native-vector-icons --save
 ```
 
